@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyEasy - Perfil</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h2>StudyEasy</h2>
+            <nav>
+                <ul>
+                    <li><a href="../Home/home.html">Início</a></li>
+                    <li><a href="#">Enem</a></li>
+                    <li><a href="#">Matérias</a></li>
+                    <li><a href="../Profile/profile.html">Feedbacks</a></li>
+                    <li><a href="profile.html" class="active">Perfil</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="header">
+                <div class="user-info">
+                    <p>Bem-vindo, <span id="username">Adley</span></p>
+                </div>
+            </header>
+            <section class="content">
+                <h1>Minha Conta</h1>
+                <div class="profile-container">
+                    <div class="profile-picture">
+                        <img src="profile-placeholder.png" alt="Foto de Perfil">
+                    </div>
+                    <div class="profile-details">
+                        <h2>Adley Rodrigues</h2>
+                        <p>adleyrodrigues2015@gmail.com</p>
+                    </div>
+                </div>
+                <div class="profile-form">
+                    <h3>Informações Públicas</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="displayName">Nome de Exibição</label>
+                            <input type="text" id="displayName" name="displayName" value="Adley Rodrigues">
+                        </div>
+                        <h3>Informações Pessoais</h3>
+                        <div class="form-group">
+                            <label for="login">Login</label>
+                            <input type="text" id="login" name="login" value="adleyrodrigues" readonly>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">Nome</label>
+                            <input type="text" id="firstName" name="firstName" value="Adley">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">Sobrenome</label>
+                            <input type="text" id="lastName" name="lastName" value="Rodrigues">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" value="adleyrodrigues2015@gmail.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" value="(88) 9 8765-4321">
+                        </div>
+                        <button type="submit">Salvar</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="profile.js"></script>
+</body>
+</html>
