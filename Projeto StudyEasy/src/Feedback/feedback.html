@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StudyEasy - Feedback</title>
-    <link rel="stylesheet" href="feedback.css">
-</head>
-<body>
+    <link rel="stylesheet" href="feedback.css" />
+  </head>
+  <body>
     <div class="container">
-        <aside class="sidebar">
-            <h2>StudyEasy</h2>
-            <nav>
-                <ul>
-                    <li><a href="../Home/home.html">Início</a></li>
-                    <li><a href="../Enem/enem.html">Enem</a></li>
-                    <li><a href="#">Matérias</a></li>
-                    <li><a href="feedback.html" class="active">Feedbacks</a></li>
-                    <li><a href="../Profile/profile.html">Perfil</a></li>
-                </ul>
-            </nav>
-        </aside>
-        <main class="main-content">
-            <header class="header">
-                <div class="user-info">
-                    <p>Bem-vindo, <span id="username">Adley</span></p>
-                </div>
-            </header>
-            <section class="content">
-                <h1>Feedback</h1>
-                <form id="feedback-form">
-                    <div class="form-group">
-                        <label for="name">Nome</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Idade</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="name">Escola</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="comment">Comentário sobre a plataforma</label>
-                        <textarea id="comment" name="comment" rows="5" required></textarea>
-                    </div>
-                    <button type="submit">Enviar</button>
-                </form>
-                <h2>Comentários</h2>
-                <div id="comments-section"></div>
-            </section>
-        </main>
+      <aside class="sidebar">
+        <h2>StudyEasy</h2>
+        <nav>
+          <ul>
+            <li><a href="../Home/home.html">Início</a></li>
+            <li><a href="../Enem/enem.html">Enem</a></li>
+            <li><a href="#">Matérias</a></li>
+            <li><a href="feedback.html" class="active">Feedbacks</a></li>
+            <li><a href="../Profile/profile.html">Perfil</a></li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main-content">
+        <header class="header">
+          <div class="user-info">
+            <p>Bem-vindo, <span id="username">Adley</span></p>
+          </div>
+        </header>
+        <section class="content">
+          <h1>Feedback</h1>
+          <form id="feedback-form">
+            <div class="form-group">
+              <label for="name">Nome</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="name">Idade</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="name">Escola</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+            <div class="form-group">
+              <label for="comment">Comentário sobre a plataforma</label>
+              <textarea
+                id="comment"
+                name="comment"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+          <h2>Comentários</h2>
+          <div id="comments-section"></div>
+        </section>
+      </main>
     </div>
     <script src="feedback.js"></script>
-</body>
+  </body>
 </html>
