@@ -36,8 +36,13 @@ export const Sidebar = () => {
             <li>
               <a href={routes.feedback}>Feedback</a>
             </li>
+          </ul>
+          <ul>
             <li>
               <a href={routes.profile}>Perfil</a>
+            </li>
+            <li>
+              <a href={routes.login}>Sair</a>
             </li>
           </ul>
         </nav>

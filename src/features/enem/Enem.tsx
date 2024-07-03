@@ -1,18 +1,10 @@
-import { Sidebar } from "../../components/sidebar";
+import { PageContent } from "../../components/pageContent";
 import style from "./Enem.module.css";
 
 export const Enem = () => {
   return (
-    <div className={style.container}>
-      <Sidebar />
+    <PageContent>
       <main className={style.main_content}>
-        <header className={style.header}>
-          <div className={style.user_info}>
-            <p>
-              Bem-vindo, <span id="username">Adley</span>
-            </p>
-          </div>
-        </header>
         <section className={style.content}>
           <h1>ENEM - Material de Estudo</h1>
           <div className={style.sections}>
@@ -89,6 +81,6 @@ export const Enem = () => {
           </div>
         </section>
       </main>
-    </div>
+    </PageContent>
   );
 };

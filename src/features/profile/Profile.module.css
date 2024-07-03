@@ -64,33 +64,35 @@
 
 .profile_details h2 {
   margin-bottom: 5px;
+  text-align: left;
 }
 
-.profile_form h3 {
-  margin-top: 20px;
-  margin-bottom: 10px;
+form h3 {
+  margin: unset;
 }
 
 .form_group {
-  margin-bottom: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-weight: 500;
 }
 
 .form_group label {
   display: block;
-  margin-bottom: 5px;
 }
 
 .form_group input {
-  width: 100%;
-  padding: 10px;
+  padding: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 0.5rem;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 1rem;
   border: none;
-  border-radius: 4px;
+  border-radius: 0.5rem;
   background-color: #007bff;
   color: #fff;
   font-size: 16px;

@@ -1,18 +1,10 @@
-import { Sidebar } from "../../components/sidebar";
+import { PageContent } from "../../components/pageContent";
 import style from "./Feedback.module.css";
 
 export const Feedback = () => {
   return (
-    <div className={style.container}>
-      <Sidebar />
+    <PageContent>
       <main className={style.main_content}>
-        <header className={style.header}>
-          <div className={style.user_info}>
-            <p>
-              Bem-vindo, <span id="username">Adley</span>
-            </p>
-          </div>
-        </header>
         <section className={style.content}>
           <h1>Feedback</h1>
           <form id="feedback-form">
@@ -43,6 +35,6 @@ export const Feedback = () => {
           <div id="comments-section"></div>
         </section>
       </main>
-    </div>
+    </PageContent>
   );
 };
