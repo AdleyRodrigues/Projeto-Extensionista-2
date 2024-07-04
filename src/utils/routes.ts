@@ -1,7 +1,6 @@
 export enum routes {
-  login = "/",
-  home = "/home",
+  home = "/",
   enem = "/enem",
   feedback = "/feedback",
-  profile = "/profile",
+  subjects = "/subjects",
 }

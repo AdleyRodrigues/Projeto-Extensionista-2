@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { PageContent } from "../../components/pageContent";
 import { fetchComments, postComment } from "../../services/api";
 import style from "./Feedback.module.css";
+import { Rating } from "../../components/rating";
 
 interface Comment {
   id?: number;
@@ -9,10 +10,12 @@ interface Comment {
   age: string;
   school: string;
   comment: string;
+  rating: number;
 }
 
 export const Feedback = () => {
   const [comments, setComments] = useState<Comment[]>([]);
+  const [rating, setRating] = useState<number>(0);
 
   useEffect(() => {
     const loadComments = async () => {
@@ -36,6 +39,7 @@ export const Feedback = () => {
       age: formData.get("age") as string,
       school: formData.get("school") as string,
       comment: formData.get("comment") as string,
+      rating: rating,
     };
 
     try {
@@ -74,8 +78,13 @@ export const Feedback = () => {
                 required
               ></textarea>
             </div>
+            <div className={style.form_group}>
+              <label>Avaliação</label>
+              <Rating rating={rating} setRating={setRating} />
+            </div>
             <button type="submit">Enviar</button>
           </form>
+          <hr />
           <h2>Comentários</h2>
           <div id={style.comments_section}>
             {comments.map((comment) => (
@@ -91,6 +100,10 @@ export const Feedback = () => {
                 </p>
                 <p>
                   <strong>Comentário:</strong> {comment.comment}
+                </p>
+                <p>
+                  <strong>Avaliação:</strong>{" "}
+                  {"★".repeat(comment.rating) + "☆".repeat(5 - comment.rating)}
                 </p>
               </div>
             ))}

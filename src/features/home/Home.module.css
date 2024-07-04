@@ -4,11 +4,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  position: relative; /* Adicionado para permitir o posicionamento absoluto da imagem */
-}
-
-.content {
-  padding: 20px;
+  position: relative;
 }
 
 .content h1 {
@@ -21,57 +17,4 @@
   position: absolute;
   bottom: 20px;
   right: 20px;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-  }
-
-  .sidebar nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-
-  .sidebar nav ul li {
-    margin-bottom: 0;
-  }
-
-  .sidebar nav ul li a {
-    font-size: 16px;
-  }
-
-  .main-content {
-    padding: 10px;
-  }
-}
-
-@media (max-width: 480px) {
-  .header .user_info {
-    font-size: 14px;
-  }
-
-  .sidebar h2 {
-    font-size: 24px;
-  }
-
-  .sidebar nav ul li a {
-    font-size: 14px;
-  }
-
-  .main-content {
-    padding: 5px;
-  }
-
-  .content h1 {
-    font-size: 24px;
-  }
 }

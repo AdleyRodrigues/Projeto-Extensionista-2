@@ -15,9 +15,7 @@ export const Sidebar = () => {
               <a href={routes.enem}>Enem</a>
             </li>
             <li>
-              <a href="#" id="materias-link">
-                Matérias
-              </a>
+              <a href={routes.subjects}>Matérias</a>
               <ul id="materias-list" className={style.hidden}>
                 <li>
                   <a href="../Materias/matematica.html">Matemática</a>
@@ -35,14 +33,6 @@ export const Sidebar = () => {
             </li>
             <li>
               <a href={routes.feedback}>Feedback</a>
-            </li>
-          </ul>
-          <ul>
-            <li>
-              <a href={routes.profile}>Perfil</a>
-            </li>
-            <li>
-              <a href={routes.login}>Sair</a>
             </li>
           </ul>
         </nav>

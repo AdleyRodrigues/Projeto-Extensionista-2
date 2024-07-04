@@ -1,0 +1,40 @@
+.content p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.content h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  color: #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.content ul li {
+  margin-bottom: 10px;
+}
+
+.content ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.content ul li a:hover {
+  text-decoration: underline;
+}
+
+.section_image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}

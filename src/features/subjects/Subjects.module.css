@@ -11,4 +11,10 @@
   display: flex;
   gap: 1rem;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.divider {
+  width: 100%;
+  margin-top: 2rem;
 }
