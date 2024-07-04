@@ -1,0 +1,22 @@
+.main {
+  border: 1px solid #c4c4c4;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.main img {
+  width: 8rem;
+  height: auto;
+}
+
+.main p {
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+  margin: unset;
+}
+
+.main:hover {
+  background-color: #f1f1f1;
+}

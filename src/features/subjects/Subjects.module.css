@@ -1,0 +1,14 @@
+.main_content {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
