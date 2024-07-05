@@ -1,4 +1,5 @@
 import style from "./math.module.css";
+import studying_math from "../../assets/studying_math.webp";
 
 export const Math = () => {
   return (
@@ -6,85 +7,68 @@ export const Math = () => {
       <p>
         Recursos e ferramentas para melhorar suas habilidades em matemática.
       </p>
-
-      <h2>Plataformas de Aprendizado</h2>
       <img
-        src="https://hed.pearson.com.br/hs-fs/hubfs/Blog%20HED/Multim%C3%ADdia/Imagens%20Blog/plataformas-digitais-educacao-5.0.jpg?width=1000&name=plataformas-digitais-educacao-5.0.jpg"
+        src={studying_math}
         alt="Plataformas de Aprendizado"
         className={style.section_image}
       />
+      <h2>Plataformas de Aprendizado</h2>
       <ul>
         <li>
-          <a href="https://pt.khanacademy.org/" target="_blank">
-            Khan Academy
+          <a
+            href="https://www.professorferretto.com.br/?utm_source=google-ads&utm_medium=search&utm_campaign=superintensivo-jun-24-palavras-marca&utm_content=ad-geral-2&conversion=superintensivo-jun-24&utm_term=ferreto%20enem&https://www.professorferretto.com.br?utm_source=google-ads&utm_medium=search&utm_campaign=superintensivo-jun-24-palavras-marca&utm_content=ad-geral-2&conversion=superintensivo-jun-24&utm_term=ferreto%20enem&gad_source=1&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXFaVjbOiaY7u6b6fpyPB_Fregr95RFeZWLXjp-7KeMBXMf3QHWZwfBoC6IcQAvD_BwE"
+            target="_blank"
+          >
+            Plataforma Ferretto
           </a>
         </li>
         <li>
           <a
-            href="https://www.duolingo.com/course/pt/en/Learn-Portuguese"
+            href="https://www.coursera.org/courses?query=mathematics"
             target="_blank"
           >
-            Duolingo
+            Coursera
           </a>
         </li>
         <li>
           <a
-            href="https://edisciplinas.usp.br/course/view.php?id=1516"
+            href="https://dmat.universonarrado.com.br/?utm_source=9806c295816d4a308df310504d8ea13f&utm_campaign=alwayson&utm_medium=Search&utm_content=termos-relacionados&utm_term=%7Bkeyword%7D&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXEazb9k2D_n_-4Vk94V1Lwjkdwrfqx02aJvyoezGY5sRnkRE25UMcBoCVTIQAvD_BwE"
             target="_blank"
           >
-            Curso de Português USP
+            Universo Narrado
           </a>
         </li>
         <li>
-          <a
-            href="https://www.memrise.com/course/2025248/portugues-brasileiro-1/"
-            target="_blank"
-          >
-            Memrise
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.babbel.com/learn-portuguese-online"
-            target="_blank"
-          >
-            Babbel
+          <a href="https://www.respondeai.com.br/" target="_blank">
+            Responde Ai
           </a>
         </li>
       </ul>
+
       <h2>Conteúdos de Matemática</h2>
-      <img
-        src="https://static.todamateria.com.br/img/categories/lingua-portuguesa.png"
-        alt="Conteúdos de Português"
-        className={style.section_image}
-      />
       <ul>
         <li>
-          <a href="https://www.professorsergionogueira.com.br/" target="_blank">
-            Blog do Professor Sérgio Nogueira
+          <a
+            href="https://www.youtube.com/watch?v=uaYFrtduFmI&list=PLrzB-zHlu3aD-mUeGQyB0YChHiSBfNTvB"
+            target="_blank"
+          >
+            xequemat enem (YouTube)
           </a>
         </li>
         <li>
           <a
-            href="https://www.youtube.com/c/Portugu%C3%AAscomLet%C3%ADcia"
+            href="https://www.youtube.com/watch?v=az6OYFS7AUA&list=PLTPg64KdGgYgFpOFt2TETLdEuBB4fvxxf"
             target="_blank"
           >
-            Português com Letícia (YouTube)
+            Professor Ferretto (YouTube)
           </a>
         </li>
         <li>
-          <a href="https://g1.globo.com/educacao/" target="_blank">
-            G1 Educação
-          </a>
-        </li>
-        <li>
-          <a href="https://redacaonline.com.br/" target="_blank">
-            Redação Online
-          </a>
-        </li>
-        <li>
-          <a href="https://novaescola.org.br/" target="_blank">
-            Nova Escola
+          <a
+            href="https://www.youtube.com/watch?v=Yv_S6onjBvU&list=PL83s8LGM84J41-Pa1_KNviiKyqsGq7stB&pp=iAQB"
+            target="_blank"
+          >
+            Rafael Procópio (YouTube)
           </a>
         </li>
       </ul>

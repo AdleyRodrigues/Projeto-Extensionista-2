@@ -1,4 +1,5 @@
 import style from "./history.module.css";
+import studying_history from "../../assets/studdying_history.webp";
 
 export const History = () => {
   return (
@@ -7,82 +8,73 @@ export const History = () => {
 
       <h2>Plataformas de Aprendizado</h2>
       <img
-        src="https://hed.pearson.com.br/hs-fs/hubfs/Blog%20HED/Multim%C3%ADdia/Imagens%20Blog/plataformas-digitais-educacao-5.0.jpg?width=1000&name=plataformas-digitais-educacao-5.0.jpg"
+        src={studying_history}
         alt="Plataformas de Aprendizado"
         className={style.section_image}
       />
       <ul>
         <li>
-          <a href="https://pt.khanacademy.org/" target="_blank">
-            Khan Academy
+          <a
+            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2oe7Hxo6HAxXbZUgAHcgfC9cYABAEGgJjZQ&co=1&ase=2&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXIHnAnOxMDTQTF3RWnKnvnwlAbP9aIb5yoL8rMAzK5t5DG4bZZYW2xoCfJkQAvD_BwE&ohost=www.google.com&cid=CAESVuD2x_3KVts1Cm1s3hfXJKzFQ9ckqNfrHO1-tsSqoHKweoWn-MvJ9pgHun-cQ6wli4PzMyDQ58aCAY4Ssbu6PXWI2sCWtnrrfTq47AYkRwJ2Ocv4-DAm&sig=AOD64_0i8ENN4Gvyfwrag43CViVPJBDrig&q&nis=4&adurl&ved=2ahUKEwj06-jHxo6HAxUNspUCHV_TCtEQ0Qx6BAgJEAE"
+            target="_blank"
+          >
+            Klazz
           </a>
         </li>
         <li>
           <a
-            href="https://www.duolingo.com/course/pt/en/Learn-Portuguese"
+            href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi2oe7Hxo6HAxXbZUgAHcgfC9cYABAAGgJjZQ&co=1&ase=2&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXBviYz07ci-82rCsDCe9X_otoWbdzBpv5y0vT61U3w7V-ShLM6qj2xoCPkMQAvD_BwE&ohost=www.google.com&cid=CAESVuD2x_3KVts1Cm1s3hfXJKzFQ9ckqNfrHO1-tsSqoHKweoWn-MvJ9pgHun-cQ6wli4PzMyDQ58aCAY4Ssbu6PXWI2sCWtnrrfTq47AYkRwJ2Ocv4-DAm&sig=AOD64_3l586kIMGxCv3ueC9iLO9qUpy1zA&q&nis=4&adurl&ved=2ahUKEwj06-jHxo6HAxUNspUCHV_TCtEQ0Qx6BAgLEAE"
             target="_blank"
           >
-            Duolingo
+            Descomplica
           </a>
         </li>
         <li>
           <a
-            href="https://edisciplinas.usp.br/course/view.php?id=1516"
+            href="https://www.superprof.com.br/blog/plataformas-estudos-acontecimentos-historicos/"
             target="_blank"
           >
-            Curso de Português USP
+            Superprof
           </a>
         </li>
         <li>
-          <a
-            href="https://www.memrise.com/course/2025248/portugues-brasileiro-1/"
-            target="_blank"
-          >
-            Memrise
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.babbel.com/learn-portuguese-online"
-            target="_blank"
-          >
-            Babbel
+          <a href="https://historiaonline.com.br/" target="_blank">
+            História Online
           </a>
         </li>
       </ul>
       <h2>Conteúdos de História</h2>
-      <img
-        src="https://static.todamateria.com.br/img/categories/lingua-portuguesa.png"
-        alt="Conteúdos de Português"
-        className={style.section_image}
-      />
       <ul>
         <li>
-          <a href="https://www.professorsergionogueira.com.br/" target="_blank">
-            Blog do Professor Sérgio Nogueira
+          <a
+            href="https://www.youtube.com/playlist?list=PLMra4G0-Z7pMYLE-D-ptnHt1IW_Y1hn8H"
+            target="_blank"
+          >
+            Parabólica (YouTube)
           </a>
         </li>
         <li>
           <a
-            href="https://www.youtube.com/c/Portugu%C3%AAscomLet%C3%ADcia"
+            href="https://www.youtube.com/playlist?list=PLPNLvl90MqKS24q7THLAgaFVXDq1_T2Y3"
             target="_blank"
           >
-            Português com Letícia (YouTube)
+            Se Liga (YouTube)
           </a>
         </li>
         <li>
-          <a href="https://g1.globo.com/educacao/" target="_blank">
-            G1 Educação
+          <a
+            href="https://www.youtube.com/playlist?list=PLIdiUrsoqaXNoqBVWhZ-VpJP8rZHmaSys"
+            target="_blank"
+          >
+            Débora Aladim
           </a>
         </li>
         <li>
-          <a href="https://redacaonline.com.br/" target="_blank">
-            Redação Online
-          </a>
-        </li>
-        <li>
-          <a href="https://novaescola.org.br/" target="_blank">
-            Nova Escola
+          <a
+            href="https://www.youtube.com/watch?v=XJ0kBLCCE7c&list=PL2EJlPZ0iJu7JMchSngqLHyzV_sU91N7Y"
+            target="_blank"
+          >
+            Canal Nostalgia
           </a>
         </li>
       </ul>

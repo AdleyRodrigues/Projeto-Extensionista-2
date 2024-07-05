@@ -1,4 +1,5 @@
 import style from "./geography.module.css";
+import studying_geografy from "../../assets/studying_geography.webp";
 
 export const Geography = () => {
   return (
@@ -7,7 +8,7 @@ export const Geography = () => {
 
       <h2>Plataformas de Aprendizado</h2>
       <img
-        src="https://hed.pearson.com.br/hs-fs/hubfs/Blog%20HED/Multim%C3%ADdia/Imagens%20Blog/plataformas-digitais-educacao-5.0.jpg?width=1000&name=plataformas-digitais-educacao-5.0.jpg"
+        src={studying_geografy}
         alt="Plataformas de Aprendizado"
         className={style.section_image}
       />
@@ -19,70 +20,58 @@ export const Geography = () => {
         </li>
         <li>
           <a
-            href="https://www.duolingo.com/course/pt/en/Learn-Portuguese"
+            href="https://vestibular.profrodrigorodrigues.com/"
             target="_blank"
           >
-            Duolingo
+            GeoBrasil
+          </a>
+        </li>
+        <li>
+          <a href="https://www.geoguessr.com/" target="_blank">
+            GeoGuess
           </a>
         </li>
         <li>
           <a
-            href="https://edisciplinas.usp.br/course/view.php?id=1516"
+            href="https://descomplica.com.br/d/vs/geografia/?utm_term=&utm_campaign=gmax_ug_performance_gwt-paid-media_meio_conversao_always-on_lead&utm_source=google&utm_medium=cpc&hsa_acc=4300659645&hsa_cam=20337576239&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwkJm0BhBxEiwAwT1AXLAtLVEViGBJaGLkLRIr6rsqtAOYUSQZe7iBWDo2W4kM6tH67fqlvhoCdJsQAvD_BwE"
             target="_blank"
           >
-            Curso de Português USP
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.memrise.com/course/2025248/portugues-brasileiro-1/"
-            target="_blank"
-          >
-            Memrise
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.babbel.com/learn-portuguese-online"
-            target="_blank"
-          >
-            Babbel
+            Descomplica
           </a>
         </li>
       </ul>
       <h2>Conteúdos de Geografia</h2>
-      <img
-        src="https://static.todamateria.com.br/img/categories/lingua-portuguesa.png"
-        alt="Conteúdos de Português"
-        className={style.section_image}
-      />
       <ul>
         <li>
-          <a href="https://www.professorsergionogueira.com.br/" target="_blank">
-            Blog do Professor Sérgio Nogueira
+          <a
+            href="https://www.youtube.com/playlist?list=PLdkZd7NEhSen1qvUgdM56njgqWyUHBbVT"
+            target="_blank"
+          >
+            Ricardo Marcílio (YouTube)
           </a>
         </li>
         <li>
           <a
-            href="https://www.youtube.com/c/Portugu%C3%AAscomLet%C3%ADcia"
+            href="https://www.youtube.com/playlist?list=PLNM2T4DNzmq7p-TtQPn3vjNU9t8M0Arxc"
             target="_blank"
           >
-            Português com Letícia (YouTube)
+            Canal Futura (YouTube)
           </a>
         </li>
         <li>
-          <a href="https://g1.globo.com/educacao/" target="_blank">
-            G1 Educação
+          <a
+            href="https://www.youtube.com/playlist?list=PLnVqR-Z_Y2bnAdYmwhzD3m1WxqcBTKpv7"
+            target="_blank"
+          >
+            Quadro Livre
           </a>
         </li>
         <li>
-          <a href="https://redacaonline.com.br/" target="_blank">
-            Redação Online
-          </a>
-        </li>
-        <li>
-          <a href="https://novaescola.org.br/" target="_blank">
-            Nova Escola
+          <a
+            href="https://www.youtube.com/playlist?list=PLruc42XZPq_Ykn5OrcgLLknBkDSLtLe6q"
+            target="_blank"
+          >
+            Não Perca a Cabeça
           </a>
         </li>
       </ul>

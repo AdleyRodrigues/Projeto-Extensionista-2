@@ -16,6 +16,7 @@ interface Comment {
 export const Feedback = () => {
   const [comments, setComments] = useState<Comment[]>([]);
   const [rating, setRating] = useState<number>(0);
+  const [ratingError, setRatingError] = useState<boolean>(false);
 
   useEffect(() => {
     const loadComments = async () => {
@@ -33,6 +34,13 @@ export const Feedback = () => {
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
+    if (rating === 0) {
+      setRatingError(true);
+      return;
+    } else {
+      setRatingError(false);
+    }
+
     const formData = new FormData(event.target as HTMLFormElement);
     const newComment: Comment = {
       name: formData.get("name") as string,
@@ -46,6 +54,7 @@ export const Feedback = () => {
       const data = await postComment(newComment);
       setComments([...comments, data]);
       (event.target as HTMLFormElement).reset();
+      setRating(0); // Reset rating after submission
     } catch (error) {
       console.error("Error posting comment:", error);
     }
@@ -81,6 +90,9 @@ export const Feedback = () => {
             <div className={style.form_group}>
               <label>Avaliação</label>
               <Rating rating={rating} setRating={setRating} />
+              {ratingError && (
+                <p className={style.error}>A avaliação é obrigatória.</p>
+              )}
             </div>
             <button type="submit">Enviar</button>
           </form>

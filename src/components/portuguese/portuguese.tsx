@@ -51,11 +51,6 @@ export const Portuguese = () => {
         </li>
       </ul>
       <h2>Conteúdos de Português</h2>
-      <img
-        src="https://static.todamateria.com.br/img/categories/lingua-portuguesa.png"
-        alt="Conteúdos de Português"
-        className={style.section_image}
-      />
       <ul>
         <li>
           <a href="https://www.professorsergionogueira.com.br/" target="_blank">

@@ -82,7 +82,11 @@ export const Subjects = () => {
           />
         </div>
         <hr className={style.divider} />
-        {selectedSubject && <div>{subjectContent[selectedSubject]}</div>}
+        {selectedSubject ? (
+          <div>{subjectContent[selectedSubject]}</div>
+        ) : (
+          <p>Selecione uma matéria para visualização das informações</p>
+        )}
       </main>
     </PageContent>
   );

@@ -12,6 +12,12 @@
   padding-bottom: 0.5rem;
 }
 
+.content img {
+  aspect-ratio: 16/9;
+  height: auto;
+  max-width: 40rem;
+}
+
 .content ul {
   padding-left: 20px;
   margin-bottom: 20px;

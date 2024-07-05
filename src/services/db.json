@@ -1,26 +1,12 @@
 {
   "comments": [
     {
-      "id": "dc38",
-      "name": "lucas",
-      "age": "23",
-      "school": "UFC",
-      "comment": "rapaz.. é legal"
-    },
-    {
-      "id": "cf2c",
-      "name": "Lionel Messi",
-      "age": "40",
-      "school": "Barcelona",
-      "comment": "tesste"
-    },
-    {
-      "id": "1af9",
-      "name": "Deley",
-      "age": "40",
-      "school": "UFC",
-      "comment": "Testando ",
-      "rating": 3
+      "id": "a689",
+      "name": "Jose da Silva",
+      "age": "18",
+      "school": "Farias Brito",
+      "comment": "Gostei muito da plataforma!",
+      "rating": 5
     }
   ]
 }
