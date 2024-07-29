@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { routes } from "../../utils/routes";
 import style from "./sidebar.module.css";
 
@@ -9,33 +10,33 @@ export const Sidebar = () => {
         <nav>
           <ul>
             <li>
-              <a href={routes.home}>Início</a>
+              <Link to={routes.home}>Início</Link>
             </li>
             <li>
-              <a href={routes.enem}>Enem</a>
+              <Link to={routes.enem}>Enem</Link>
             </li>
             <li>
-              <a href={routes.dicasEstudo}>Dicas de Estudo</a>
+              <Link to={routes.dicasEstudo}>Dicas de Estudo</Link>
             </li>
             <li>
-              <a href={routes.subjects}>Matérias</a>
+              <Link to={routes.subjects}>Matérias</Link>
               <ul id="materias-list" className={style.hidden}>
                 <li>
-                  <a href="../Materias/matematica.html">Matemática</a>
+                  <Link to="/materias/matematica">Matemática</Link>
                 </li>
                 <li>
-                  <a href="../Materias/portugues.html">Português</a>
+                  <Link to="/materias/portugues">Português</Link>
                 </li>
                 <li>
-                  <a href="../Materias/historia.html">História</a>
+                  <Link to="/materias/historia">História</Link>
                 </li>
                 <li>
-                  <a href="../Materias/geografia.html">Geografia</a>
+                  <Link to="/materias/geografia">Geografia</Link>
                 </li>
               </ul>
             </li>
             <li>
-              <a href={routes.feedback}>Feedback</a>
+              <Link to={routes.feedback}>Feedback</Link>
             </li>
           </ul>
         </nav>
