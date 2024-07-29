@@ -1,11 +1,13 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/comments.js" },
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ],
   "functions": {
     "api/comments.js": {
-      "runtime": "nodejs18.x" 
+      "runtime": "nodejs18.x"
     }
   }
 }
