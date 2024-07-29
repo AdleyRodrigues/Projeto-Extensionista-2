@@ -1,8 +1,8 @@
 // api/comments.js
-import jsonServer from 'json-server';
-const server = jsonServer.create();
-const router = jsonServer.router('src/services/db.json'); // Caminho para seu arquivo db.json
-const middlewares = jsonServer.defaults();
+import { create, router as _router, defaults } from 'json-server';
+const server = create();
+const router = _router('src/services/db.json'); // Caminho para seu arquivo db.json
+const middlewares = defaults();
 
 server.use(middlewares);
 server.use(router);
