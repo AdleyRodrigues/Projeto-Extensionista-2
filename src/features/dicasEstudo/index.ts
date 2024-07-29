@@ -1,0 +1,1 @@
+export { DicasEstudo } from "./DicasEstudo";

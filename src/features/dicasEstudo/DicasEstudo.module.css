@@ -1,0 +1,48 @@
+.main_content {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main_content h1 {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+.section {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.section h2 {
+  margin-bottom: 15px;
+  color: #007bff;
+}
+
+.section p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  margin-bottom: 10px;
+}
+
+.section ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.section ul li a:hover {
+  text-decoration: underline;
+}

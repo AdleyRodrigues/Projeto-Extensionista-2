@@ -15,6 +15,9 @@ export const Sidebar = () => {
               <a href={routes.enem}>Enem</a>
             </li>
             <li>
+              <a href={routes.dicasEstudo}>Dicas de Estudo</a>
+            </li>
+            <li>
               <a href={routes.subjects}>Matérias</a>
               <ul id="materias-list" className={style.hidden}>
                 <li>

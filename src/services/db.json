@@ -7,6 +7,14 @@
       "school": "Farias Brito",
       "comment": "Gostei muito da plataforma!",
       "rating": 5
+    },
+    {
+      "id": "fc12",
+      "name": "adley",
+      "age": "12",
+      "school": "aaaaaaaaaaaaa",
+      "comment": "111111111111",
+      "rating": 5
     }
   ]
 }
