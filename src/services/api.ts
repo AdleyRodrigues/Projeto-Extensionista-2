@@ -1,4 +1,6 @@
-const API_URL = "http://localhost:3000/comments";
+//const API_URL = "http://localhost:3000/comments";
+const API_URL = "https://5095-2804-29b8-5015-2d0e-895d-274a-1a0b-6bc.ngrok-free.app/comments";
+
 
 export const fetchComments = async () => {
   const response = await fetch(API_URL);
