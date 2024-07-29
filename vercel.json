@@ -4,5 +4,13 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "api/comments.js": {
+      "memory": 128,
+      "maxDuration": 10,
+      "runtime": "nodejs14.x",
+      "handler": "src/services/db.json"
+    }
+  }
 }

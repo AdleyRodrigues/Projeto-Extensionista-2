@@ -1,28 +1,20 @@
 {
   "comments": [
     {
-      "id": "a689",
-      "name": "Jose da Silva",
-      "age": "18",
-      "school": "Farias Brito",
-      "comment": "Gostei muito da plataforma!",
+      "id": "01",
+      "name": "Kawany Freitas Carmo",
+      "age": "13",
+      "school": "Vilebaldo Barbosa Martins",
+      "comment": "Plataforma muito boa! App fácil de acessar. Usou matérias em que a maioria dos adolescentes tem muita dificuldade,e isso facilita muito!",
       "rating": 5
     },
     {
-      "name": "aaaaaaaaaa",
-      "age": "aaaaaaaaaaa",
-      "school": "aaaaaaaaaaaa",
-      "comment": "aaaaaaaaa",
-      "rating": 4,
-      "id": "pvepUzy"
-    },
-    {
-      "name": "adley",
-      "age": "11111111",
-      "school": "11111111",
-      "comment": "1111111111",
-      "rating": 4,
-      "id": "Uob76ko"
+      "id": "02",
+      "name": "Andressa Rodrigues Araujo",
+      "age": "15",
+      "school": "EEMTI LIONS CLUB",
+      "comment": "A plataforma ajuda em si aos estudos do aluno que está passando por dúvidas em matérias que cobram bastante em si, tornando o conteúdo mais coerente para seu desenvolvimento futuro!",
+      "rating": 5
     }
   ]
 }
