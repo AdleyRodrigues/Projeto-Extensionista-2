@@ -4,11 +4,19 @@ const API_URL = import.meta.env.VITE_API_URL;
 
 
 export const fetchComments = async () => {
-  const response = await fetch(API_URL);
-  if (!response.ok) {
-    throw new Error("Failed to fetch comments");
+  try {
+    const response = await fetch(API_URL);
+    const text = await response.text(); 
+    console.log(text); 
+    
+    if (!response.ok) {
+      throw new Error("Failed to fetch comments");
+    }
+
+    return JSON.parse(text); 
+  } catch (error) {
+    console.error('Erro ao buscar comentários:', error);
   }
-  return response.json();
 };
 
 export const postComment = async (comment: {
