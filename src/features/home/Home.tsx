@@ -10,7 +10,7 @@ export const Home = () => {
           <h1>Página Inicial</h1>
           <p>
             Bem-vindo ao StudyEasy! Aqui você pode acessar seus cursos,
-            materiais de estudo e muito mais.
+            materiais de estudo dicas e muito mais.
           </p>
           <img
             src={image}
